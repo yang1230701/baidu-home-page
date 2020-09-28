@@ -1,0 +1,273 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body {   
+    
+    font-family: "PingFang SC",Arial,"Microsoft YaHei",sans-serif;
+    font-size: 12px;
+    cursor: default;
+    background-color: #fff;
+}
+.nav {
+    height: 60px;
+    overflow: hidden;
+}
+.nav ul {
+    list-style-type: none;
+}
+.nav-left  {
+    margin-left: 24px;
+    width: 440px;
+    float: left;
+}
+.nav-left li {
+    float: left;
+}
+.nav a {
+    text-decoration: none;
+    color: #222;
+    font-size: 13px;
+}
+.nav a:hover {
+    color: #4e71f2;
+}
+.nav-right {
+    width: 347px;
+    float: right;
+    height: 60px;
+    padding-left: 18px;
+    padding-right: 24px;
+}
+.nav-right img {
+    vertical-align: middle;
+}
+.set {
+    font-size: 13px;
+    display: inline-block;
+    position: relative;
+}
+.tiptool {
+    display: none;
+    position: absolute;
+    top: 10px;
+    z-index: 1;
+}
+.tiptool ul li{
+    height: 10px;
+    width: 60px;
+}
+.nav-right li {
+    float: left;
+    line-height: 60px;
+}
+.nav-left a {
+    display: block;
+    line-height: 60px;
+    margin-right: 31px;
+}
+.weather {
+    display: inline-block;
+    height: 23px;
+    width: 23px;
+    margin-right: 4px;
+    vertical-align: center;
+}
+#city {
+    display: inline-block;
+    margin-right: 8px;
+}
+#temper {
+    display: inline-block;
+    margin-right: 6px;
+}
+#tip1 {
+    height: 16px;
+    color: #fff;
+    background: #4e71f2;
+    border-radius: 3px;
+    font-size: 11px;
+    display: inline-block;
+    line-height: 17px;
+    text-align: center;
+    padding: 0 2px;
+    margin-right: 30px;
+}
+#username {
+    margin-left: 32px;
+    margin-top: 15px;
+  
+}
+#username img {
+    padding: 2px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+/* 内容区 */
+
+.main-flag {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.logo-top {
+    width: 654px;
+    margin: 0 auto;
+    text-align: center;
+}
+.logo-top img {  
+    width: 270px;
+    height: 129px;
+    position: relative;
+    bottom: 15px;
+}
+.logo-bottom {
+    text-align: center;
+}
+.logo-bottom input {
+    position: relative;
+}
+#input-left {
+    width: 548px;
+    height: 44px;
+    padding: 12px 48px 12px 16px;
+    background-color: #fff;
+    font-size: 16px;
+    border-radius: 10px 0 0 10px;
+    border: 2px solid #c4c7ce;
+    color: rgb(0, 0, 0);
+    overflow: hidden;
+}
+#input-right {
+    cursor: pointer;
+    width: 108px;
+    height: 44px;
+    line-height: 44px;
+    padding: 0;
+    background: 0 0;
+    background-color: #4e6ef2;
+    border-radius: 0 10px 10px 0;
+    font-size: 17px;
+    color: #fff;
+    box-shadow: none;
+    font-weight: 400;
+    border: none;
+    outline: 0;
+}
+/* 新闻内容 */
+.content {
+    margin: 0 auto;
+    width: 656px;
+    margin-top: 40px;
+}
+.news {
+    padding-left: 14px;
+}
+.news li {
+    height: 32px;
+    line-height: 32px;
+    padding-left: 7px;
+}
+.news-title {
+    height: 24px;
+    line-height: 24px;
+    margin-bottom: 4px;
+}
+.news-title a {
+    float: left;
+}
+#change {
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: #9295a3;
+}
+.news ol::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.news-left {
+    float: left;
+}
+.news-right {
+    float: right;
+    margin-right: 50px;
+}
+.content a {
+    text-decoration: none;
+    color: #222;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+.content a:hover {
+    color: #4e6ef2;
+}
+#tip2,#tip3 {
+    height: 16px;
+    color: #fff;
+    border-radius: 3px;
+    font-size: 11px;
+    display: inline-block;
+    line-height: 16px;
+    text-align: center;
+    padding: 0 2px;
+    margin-left: 8px;
+}
+#tip2 {
+    background: #ff9812;
+}
+#tip3 {
+    background: #ff455b;
+}
+
+
+/*底部版权区*/
+footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0%;
+    height: 40px;
+    background-color: #fbfbfb;
+}
+.footer-left {
+    width: 650px;
+    float: left;
+    padding-left: 25px;
+}
+.footer-left-a li { 
+    float: left;
+    list-style-type: none;
+    margin-right: 20px;
+}
+.footer-left-a a {
+    text-decoration: none;
+    line-height: 40px;
+    font-size: 12px;
+    color: #9195a3;
+}
+.footer-left a:hover {
+    color: #222;
+}
+.footer-right {
+    float: right;
+    width: 545px;
+    line-height: 40px;
+}
+.footer-left-a .ques {
+    text-decoration: underline;
+    color: #9195a3;
+    font-weight: 700;
+}
+.Ih {
+    margin-right: 20px;
+    color: #bbb;
+}
+#web-num {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #bbb;  
+}
